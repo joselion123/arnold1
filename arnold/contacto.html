@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto: Sitio de Arnold</title>
+</head> 
+<body>
+   
+    <div class="menu">
+        <ul>
+            <li>
+             <a href="index.html">inicio</a>
+            </li>
+            <li><a href="articulos.html">articulos</a></li>
+            <li><a href="servicios.html">servicios</a></li>
+            <li><a href="contacto.html">contacto</a></li> 
+         </ul>
+    </div> 
+    para mayor informacion llena los siguientes elementos del formulario
+    <br> <br> 
+    <!-- ETIQUETA CONTENEDORA  form -->
+    <!-- INICIO DEL FORMULARIO -->
+    
+    <form action="">
+<!-- CAJA DE TEXTO  input:text -->
+
+ <input type="text" name="nombres" id="nombres" placeholder="nombres"/>
+
+ <br> <br>
+ <input type="text" name="apellidos" id="apellidos" placeholder="apellidos">
+
+ <br> <br>
+ escriba comentario o solicitud
+<textarea name="comentarios" id="comentarios" cols="80" rows="7"></textarea>
+<br>Escriba su edad 
+<input type="number" name="edad" id="edad"> <br> <br>
+seleccione sus actividades preferidas <br> 
+gimnasia:
+<input type="checkbox" name="gimnasia" id="gimnasia">
+pesas <input type="checkbox" name="pesas" id="pesas">
+natacion <input type="checkbox" name="natacion" id="natacion">
+pilates <input type="checkbox" name="pilates" id="pilates">
+<!-- campo culto o hidden -->
+<br>
+<input type="hidden" name="oculto" value="password345" >
+= campos nuevos de html 5 =
+<input type="image" src="./asetts/images/images/peliculas1.jpg" width="200"  alt="">
+escriba su fecha de nacimiento
+<input type="date" name="fecha de enacimiento" id="fecha de nacimiento">
+<br> <br>
+escriba el Email
+<input type="email" name="email" id="email"> <br> <br>
+ingrese la clave 
+<input type="password" name="password" id="password"> <br>
+deslice para mostrar:
+<input type="range" name="rango" id="rango"> <br>
+sube el archivo a enviar:
+<input type="file" name="archivo" id="archivo">
+
+<br> <br>
+seleccione su sexo 
+<select name="sexo" id="sexo">
+<option value="f">Femenino</option>
+<option value="m">Masculino</option>
+<option value="nb">No binario</option>
+</select>
+<br>
+ <input type="reset" value="cancelar">
+<input type="submit" value="enviar">
+
+    </form>
+    <!-- FIN DEL FORMULARIO -->
+</body>
+</html>

@@ -1,0 +1,30 @@
+.contenedor {
+    filter: drop-shadow(1px 1px 20px yellow);
+    padding: 5px;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(127, 17, 230);
+    margin:0 auto; /*cenctrar*/
+    text-align: center;
+}
+
+
+.ancho25 {
+    margin: 5px;
+    background-color: brown;
+    width: 20%;
+    float: left;
+
+}
+
+.ancho33 {
+    margin: 5px;
+    background-color: rgb(42, 165, 63);
+    width: 32%;
+    float:left;
+}
+.ancho50{margin: 1px;
+    background-color: rgb(52, 52, 211);
+    width: 48%;
+float: left;
+}
